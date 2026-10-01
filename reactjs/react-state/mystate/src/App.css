@@ -1,0 +1,17 @@
+*{
+  padding: auto;
+  margin: 8;
+  background-color: crimson;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.btn{
+  color: aliceblue;
+  background-color: rgb(35, 35, 184);
+  padding: 8px;
+  margin: 5px;
+  max-width: 10px;
+}

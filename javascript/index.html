@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS to style the injected HTML element */
+    .red-text { color: red; font-weight: bold; }
+    .box { border: 1px solid black; padding: 10px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+  <!-- <h3>Box 1: innerHTML</h3>
+  <div id="box-html" class="box"></div>
+
+  <h3>Box 2: textContent</h3>
+  <div id="box-text" class="box"></div> -->
+
+  <form id="loginForm">
+    <input id="username" type="text">
+    <button type="submit">Login</button>
+</form>
+
+<h1 id="title">Hello</h1>
+
+<p id="result"></p>
+
+  <script>
+    // <script src="script.js">
+    // The string containing an HTML tag and a CSS class
+    // const stringData = "Hello! This text is <span class='red-text'>RED</span>.";
+
+    // // innerHTML renders the tags and applies the CSS
+    // document.getElementById("box-html").innerHTML = stringData;
+
+    // // textContent prints the raw code out as plain text
+    // document.getElementById("box-text").textContent = stringData;
+
+const form = document.getElementById("loginForm");
+const username = document.getElementById("username");
+const result = document.getElementById("result");
+const title = document.getElementById("title");
+
+title.style.color = "red";
+title.style.fontSize = "40px";
+title.style.backgroundColor = "yellow";
+
+form.addEventListener("submit", (event) => {
+
+    event.preventDefault();
+
+    result.textContent = "Welcome " + username.value;
+
+});
+  </script>
+
+</body>
+</html>

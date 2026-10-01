@@ -1,0 +1,23 @@
+*{
+  margin: 5px;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  max-width: 1200px;
+  max-height: 1200px;
+}
+
+
+.comp{
+  padding: auto;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
