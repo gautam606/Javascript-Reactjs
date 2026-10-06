@@ -5,7 +5,6 @@ import Dashboard from "./Dashboard";
 import Profile from "./Profile";
 import Settings from "./Settings";
 import Home from "./Home";
-
 import Login from "./Login";
 import ProtectedRoute from "./ProtectedRoute";
 
