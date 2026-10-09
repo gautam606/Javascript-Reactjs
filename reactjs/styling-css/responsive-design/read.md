@@ -113,3 +113,49 @@ Flex container
 ┌────────┐ ┌────────┐ ┌────────┐
 │ Item 1 │ │ Item 2 │ │ Item 3 │
 └────────┘ └────────┘ └────────┘
+
+
+Media Queries ✅
+      ↓
+Mobile First ← NEXT
+      ↓
+Flexbox
+      ↓
+CSS Grid
+      ↓
+Responsive Containers
+      ↓
+Responsive Images
+      ↓
+Responsive Typography
+      ↓
+Responsive Spacing
+      ↓
+Responsive Navbar
+      ↓
+Responsive Product Cards
+      ↓
+Responsive Forms
+      ↓
+Overflow
+      ↓
+Responsive Height
+      ↓
+Orientation
+      ↓
+Accessibility
+      ↓
+Testing
+      ↓
+Tailwind Responsive Design
+
+roadmap for the responisive design
+
+important concept----->
+
+note:
+
+☰ --->hamburger button
+
+
+
